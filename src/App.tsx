@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
+// import WorldMap from './components/WorldMap'
+import { Destination } from './components/Destination'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      {/*<WorldMap />*/}
+      <h2>Lets go</h2>
+      <Destination />
+
+      {/*
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <ul>
+          <li>Where do I want to go?</li>
+          <ul>
+            <li>SEA</li>
+            <li>Local</li>
+            <li>Europe</li>
+            <li>Asia</li>
+            <li>Middle East</li>
+            <li>North Asia (Russia, Mongolia, Yakutsk)</li>
+            <li>Pacific islands</li>
+            <li>Africa</li>
+            <li>Carribeans</li>
+          </ul>
+          <li>Activities</li>
+          <ul>
+            <li>Culture</li>
+            <li>Ruins</li>
+            <li>Frolick on the beaches</li>
+            <li>Nature</li>
+            <li></li>
+          </ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>*/}
     </>
   )
 }
 
 export default App
+
+// travel api
+// https://rapidapi.com/sharemap-sharemap-default/api/travel-places/playground/apiendpoint_8211b788-e1e7-4332-b42f-aef8bbe99210
+// https://scarletscribs.wordpress.com/2018/01/07/this-awesome-map-tells-you-the-best-time-to-visit-every-destination-in-the-world/
